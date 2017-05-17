@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.arriba{
+	background-color: black;
+	color: white;
+	font-family: merienda;
+}
+.arriba h1{
+	margin-left: 8%;
+}
+.redes a{
+	color: #ffffff;
+	margin: 5% 0;
+}
+.redes .fa{
+	margin-left: 5%;
+}
+nav{
+	padding: 5% 0;
+	margin-left: 70%;
+}
+.menu{
+	background-color: black;
+	text-align: right;
+}
+.menu a{
+	color: white;
+	font-family: merienda;
+	font-size: 15px;
+	margin-right: 70px;
+}
+.modales{
+	margin-top: 5%;
+
+}
+.carrusel{
+	margin-top: 8%;
+	background-color: #CCCCCC ;
+	padding: 10px 10px 10px 10px;
+}
+.aviso{
+	margin-top: 5%;
+	background-color: #B1D8D8;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 17px;
+}
+.formulario{
+	background-color: #CCCCCC  ;
+	border-radius: 20px;
+	padding-top: 10px;
+	margin-top: 8%;
+}
+.botonenviar{
+	margin-left: 10%;
+}
+.footer{
+	margin-top: 15%;
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	justify-content: space-around;
+}
+.footer p {
+	text-align: center;
+}
+.footer a{
+	color: white;
+}
+
+@media screen and (max-width:650px) {
+
+	.modal-content{
+		margin-top: 50%;
+	}
+	#exito{
+		background-image: "img/apu.jpg";
+	}
+}
+
+#apu {
+ margin: auto;
+}
