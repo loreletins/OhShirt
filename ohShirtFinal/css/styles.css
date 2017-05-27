@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/****header****/
+.logo{
+	padding-top: 1%;
+	background-color: black;
+	color: white;
+	font-family: roboto:400;
+	text-align: center;
+}
+.prod1{
+	padding-top:1%;
+	font-family: roboto;
+	text-align: left;
+}
+.prod1 a{
+	padding-top: 10%;
+	font-family: roboto;
+	color: white;
+	font-size: 150%;	
+}
+.prod2{
+	padding-top:1%;
+	font-family: roboto;
+	text-align: right;
+}
+.prod2 a{
+	padding-top: 10%;
+	font-family: roboto;
+	color: white;
+	font-size: 150%;
+}
+.prodquery{
+	background-color: black;
+}
+.prodquery1 {
+	font-family: roboto;
+	text-align: left;
+	}
+	.prodquery1 a{
+	font-family: roboto;
+	color: white;
+	font-size: 150%;
+
+	}
+	.prodquery2 {
+	font-family: roboto;
+	text-align: left;
+	}
+	.prodquery2 a{
+	font-family: roboto;
+	color: white;
+	font-size: 150%;
+	}
+	.prodquery{
+		display: none;
+	}
+	
+
+/****slider****/
+.carrusel{
+	margin-top: 8%;
+	background-color: #CCCCCC ;
+	padding: 10px 10px 10px 10px;
+}
+
+/****modales****/
+.modales{
+	margin-top: 5%;
+}
+.harry{
+	display: none;
+}
+
+/**** aviso talles ****/
+.aviso{
+	margin-top: 5%;
+	background-color: #B1D8D8;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 17px;
+}
+
+/****formulario****/
+.formulario{
+	background-color: #CCCCCC  ;
+	border-radius: 20px;
+	padding-top: 10px;
+	margin-top: 8%;
+}
+.botonenviar{
+	margin-left: 10%;
+}
+
+/****footer*****/
+.footer{
+	margin-top: 15%;
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	justify-content: space-around;
+}
+.footer p {
+	text-align: center;
+}
+.footer a{
+	color: white;
+}
+.redes img{
+	margin-left: 25%;
+}
+@media screen and (max-width:999px){
+	.logo img{
+		width: 50%;
+	}
+	.redes img{
+		margin-left: 42%;
+		margin-right: -35%;
+	}
+	.prod{
+		display: none;
+	}
+	.prodquery{
+		padding-top:1%;
+		display: block;
+		text-align: center;
+	}
+	.prodquery1 a{
+		margin-left: 43%;
+		font-size: 18px;
+	}
+	.prodquery2 a{
+		margin-left: 44%;
+		font-size: 18px;
+	}
+	.harry{
+	display: block;
+	}
+	.botonenviar {
+		margin-left: 42%;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.logo img{
+		width: 60%;
+	}
+	.redes img{
+		margin-left: 38%;
+		margin-right: -30%;
+	}
+	.harry{
+		display: none;
+	}
+	.prod{
+		display: none;
+	}
+	.prodquery{
+		display: block;
+	}
+	.prodquery1 a{
+		margin-left: 39%;
+		font-size: 15px;
+	}
+	.prodquery2 a{
+		margin-left: 41%;
+		font-size: 15px;
+	}
+	.botonenviar {
+		margin-left: 35%;
+	}
+}
+	
